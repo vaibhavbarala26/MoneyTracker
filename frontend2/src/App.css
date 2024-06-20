@@ -1,0 +1,330 @@
+.loginmain{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  background-color: #34e068;
+  background-image: linear-gradient(19deg, #0d9308 0%, #2ca613 100%);
+  
+  height: 100vh;
+  align-items: center;
+}
+.login{
+  text-align: center;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 40vh;
+  gap: 2vh;
+  margin: 0 auto;
+  padding: 8vh 4vh;
+  background: rgba(192, 183, 183, 0.25);
+box-shadow: 0 8px 32px 0 rgba(9, 196, 9, 0.37);
+backdrop-filter: blur( 5.5px );
+-webkit-backdrop-filter: blur( 5.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+.login input{
+  height: 5vh;
+  padding: 0 2vh;
+  font-size: 3vh;
+  border: none;
+  border-radius: 20px;
+}
+.login button{
+  height: 5vh;
+  border-radius: 20px;
+  background-color: black;
+  color: aliceblue;
+  font-size: 3vh;
+}
+.login button:hover{
+  cursor: pointer;
+  background-color: aliceblue;
+  color: black;
+}
+a{
+  text-decoration: none;
+  color: white
+}
+.Form{
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 7vh;
+  @media (max-widht:700px) {
+    font-size: 1.9vh;
+    padding:0.5vh 1vh;
+    display: none;
+  }
+}
+.Form input {
+height: 3.6vh;
+border: none;
+padding: 1vh 2vh;
+border-radius: 20px;
+background-color: rgb(247, 240, 240);
+font-size: 2.9vh;
+background: rgba(192, 183, 183, 0.25);
+box-shadow: 0 8px 32px 0 rgba(7, 190, 13, 0.37);
+backdrop-filter: blur( 5.5px );
+-webkit-backdrop-filter: blur( 5.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+color: aliceblue;
+
+}
+#text{
+  margin-right:1.4vh ;
+}
+#date{
+  color: aliceblue;
+}
+.button{
+  border: none;
+  font-size: 2.5vh;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 1.6vh 2vh;
+  background: rgba(192, 183, 183, 0.25);
+box-shadow: 0 8px 32px 0 rgba(7, 153, 48, 0.37);
+backdrop-filter: blur( 5.5px );
+-webkit-backdrop-filter: blur( 5.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+color: aliceblue;
+}
+.button:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.money{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10vh;
+}
+.money h1{
+  color: green;
+  font-weight: 600;
+}
+.money h2{
+  color: red;
+}
+.main{
+  height: 100vh;
+  background-image: linear-gradient(19deg, #11b938 0%, #0a8a0a 100%);
+}
+.Navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4vh;
+  color: aliceblue;
+}
+.Navbar button{
+  border: none;
+  font-size: 2.5vh;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 1.6vh 2vh;
+  margin-left: 1.9vh;
+  background: rgba(192, 183, 183, 0.25);
+box-shadow: 0 8px 32px 0 rgba(11, 193, 29, 0.37);
+backdrop-filter: blur( 5.5px );
+-webkit-backdrop-filter: blur( 5.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+color: aliceblue;
+
+}
+.Navbar button:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.description{
+  margin: 0 auto;
+  background-color: transparent;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 30vh;
+  color: aliceblue;
+  margin-top: 5vh;
+
+}
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  background-color: transparent
+}
+::-webkit-scrollbar-thumb{
+  background-color: black;
+  border-radius: 10px;
+
+}
+
+.content{
+  border: 2px solid black;
+  margin: 1vh;
+  padding: 0 3vh;
+  background-color: black;
+  border-radius: 10px;
+  
+}
+.button{
+width: 46%;
+
+}
+.Description{
+  width: 94%;
+
+}
+.content{
+  display: flex;
+  justify-content: space-between;
+}
+.readind h2 {
+  color: red;
+}
+.plus{
+  display: flex;
+  justify-content: space-between;
+}
+.balance{
+  background-color: aliceblue;
+  display: flex;
+  width: 20%;
+  margin-top: -49vh;
+  margin-left: 2vh;
+  padding: 0vh 3vh;
+  height: 17vh;
+  align-items: center;
+  border-radius: 10px;
+  background-color: black;
+  color: aliceblue;
+  justify-content: space-between;
+}
+.sexy{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+  .content {
+    font-size: 1.2vh;
+    flex-wrap: wrap;
+  }
+.landing img {
+  
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.contentl {
+  font-size: 6vh;
+  color: aliceblue;
+  padding-left: 3vh;
+  position: relative;
+  bottom: 60vh;
+  width: 40%;
+}
+#tht{
+  color: green;
+  font-weight: bold;
+
+}
+.landing{
+  width: 100%;
+  height: 100vh;
+  background-color: #064404;
+}
+.navi {
+  display: flex;
+  margin-top: 2vh;
+  
+  height: 10vh;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3.7vh;
+}
+.navi span{
+  font-size: 4vh;
+  font-weight: bold;
+  color: aliceblue;
+}
+.but{
+  width: 16%;
+  display: flex;
+  justify-content: space-around;
+}
+.but button{
+  height: 5vh;
+  padding: 0 3vh;
+  font-size: 2vh;
+  font-weight: bold;
+  background-color: #17d111;
+  border: none;
+  border-radius: 10px;
+}
+.but button:hover{
+  background-color: aliceblue;
+  color: #17d111;
+  cursor: pointer;
+}
+#lo{
+  background-color: transparent;
+  border: 1px solid gray;
+  color: aliceblue;
+}
+.heading1{
+  margin-top: 10vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.text{
+  font-size: 5vh;
+  font-weight: bold;
+  color: aliceblue;
+  width: 40%;
+  line-height: 8vh;
+}
+.text span{
+  color: rgb(6, 180, 6);
+}
+.text p{
+  font-size: 3vh;
+}
+.down {
+  margin-top: -7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: aliceblue;
+}
+.down button{
+  height: 5vh;
+  padding: 0 3vh;
+  font-size: 2vh;
+  font-weight: bold;
+  background-color: #17d111;
+  border: none;
+  border-radius: 10px;
+}
+.down button:hover{
+  background-color: aliceblue;
+  color: #17d111;
+  cursor: pointer;
+}
+.landing img{
+  margin-top: 2vh;
+  height: 45vh;
+}
